@@ -21,6 +21,9 @@ async function bootstrap() {
   /* 设置后，如果服务经过代理 req.ips 将是一个[]。可以获得真实ip  */
   app.set('trust proxy', true);
 
+  /** 设置接口统一前缀 */
+  app.setGlobalPrefix('api')
+
   /* 读取环境变量里是否允许跨域 */
   const cors = configService.get('cors');
   if (cors) {

@@ -34,8 +34,8 @@ export default {
    * reids 配置
    */
   redis: {
-    host: 'localhost',
-    port: '6379',
+    host: 'redis',
+    port: '16379',
     password: '123456',
     db: 0,
   },

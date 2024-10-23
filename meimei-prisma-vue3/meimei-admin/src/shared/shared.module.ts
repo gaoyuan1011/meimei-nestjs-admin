@@ -45,6 +45,7 @@ import { OperationLogInterceptor } from 'src/common/interceptors/operation-log.i
      * 配置参数模块
      */
     ConfigModule.forRoot({
+      envFilePath: `.env.${process.env.NODE_ENV || 'development'}`,
       load: [config],
       cache: true,
       isGlobal: true,

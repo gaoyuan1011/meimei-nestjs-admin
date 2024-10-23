@@ -9,7 +9,7 @@
  */
 import { InjectRedis } from '@nestjs-modules/ioredis';
 import { Injectable } from '@nestjs/common';
-import { isEmpty } from 'lodash';
+import * as _ from 'lodash';
 import { ApiException } from 'src/common/exceptions/api.exception';
 import Redis from 'ioredis';
 import * as bcrypt from 'bcrypt';
@@ -31,7 +31,7 @@ export class AuthService {
   /* 判断验证码是否正确 */
   async checkImgCaptcha(uuid: string, code: string) {
     const result = await this.redis.get(`${CAPTCHA_IMG_KEY}:${uuid}`);
-    if (isEmpty(result) || code.toLowerCase() !== result.toLowerCase()) {
+    if (_.isEmpty(result) || code.toLowerCase() !== result.toLowerCase()) {
       throw new ApiException('验证码错误');
     }
     await this.redis.del(`${CAPTCHA_IMG_KEY}:${uuid}`);

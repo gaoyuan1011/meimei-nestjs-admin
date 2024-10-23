@@ -1,0 +1,35 @@
+services:
+  nestjs_admin:
+    image: nestjs_admin
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data/server:/app/static
+    ports:
+      - "13000:3000"
+    environment:
+      - NODE_ENV=production
+    restart: always
+    depends_on:
+      - database
+      - redis
+  database:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "123456"
+      MYSQL_DATABASE: nestjs
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"  # 允许使用空密码
+    ports:
+      - "13306:3306"
+    volumes:
+      - ./data/mysql:/var/lib/mysql
+
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - "16379:6379"
+    volumes:
+      - ./data/redis:/data
