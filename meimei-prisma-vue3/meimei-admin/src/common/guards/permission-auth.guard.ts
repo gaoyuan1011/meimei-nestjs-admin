@@ -1,13 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-23 18:59:25
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-28 11:04:17
- * @FilePath: \meimei-new\src\common\guards\permission-auth.guard.ts
- * @Description: 权限标识守卫
- *
- */
-
 import { InjectRedis } from '@nestjs-modules/ioredis';
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';

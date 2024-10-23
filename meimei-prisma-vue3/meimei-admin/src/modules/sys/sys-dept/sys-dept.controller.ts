@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-05-12 17:35:00
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-16 21:10:31
- * @FilePath: /meimei-new/src/modules/sys/sys-dept/sys-dept.controller.ts
- * @Description:
- *
- */
 import {
   Body,
   Controller,

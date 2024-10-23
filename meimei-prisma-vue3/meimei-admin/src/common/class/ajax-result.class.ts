@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-23 09:25:47
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-23 16:03:51
- * @FilePath: \meimei-new\src\common\class\ajax-result.class.ts
- * @Description:
- *
- */
 export class AjaxResult {
   readonly code: number;
   readonly msg: string;

@@ -1,12 +1,3 @@
-/*
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2023-09-12 13:48:11
- * @LastEditors: sheng.jiang 87789771@qq.com
- * @LastEditTime: 2023-09-12 14:28:38
- * @FilePath: \ruoyi-ui-3.0-print\src\components\Print\changeScale.js
- * @Description: 
- * 
- */
 import { computed } from 'vue'
 export function useChangeScale(hiprintTemplate) {
     const scaleValue = ref(1)

@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-27 21:55:32
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-13 14:56:12
- * @FilePath: \meimei-new\src\modules\monitor\login-infor\login-infor.service.ts
- * @Description:
- *
- */
 import { Inject, Injectable } from '@nestjs/common';
 import {
   AddLoginInforDto,

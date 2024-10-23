@@ -1,13 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-28 10:31:51
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-28 10:54:10
- * @FilePath: \meimei-new\src\common\pipes\createmessage.pipe.ts
- * @Description: 参数中增加创建信息管道
- *
- */
-
 import {
   PipeTransform,
   Injectable,

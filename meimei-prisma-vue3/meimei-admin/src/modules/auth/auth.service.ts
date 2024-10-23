@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-23 19:15:56
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-18 10:19:04
- * @FilePath: /meimei-new/src/modules/auth/auth.service.ts
- * @Description: 用户身份校验
- *
- */
 import { InjectRedis } from '@nestjs-modules/ioredis';
 import { Injectable } from '@nestjs/common';
 import * as _ from 'lodash';

@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-23 15:21:54
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-18 10:16:13
- * @FilePath: /meimei-new/src/common/guards/jwt-auth.guard.ts
- * @Description: jwt 校验守卫
- *
- */
 import { ExecutionContext, Injectable } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';
 import { AuthGuard } from '@nestjs/passport';

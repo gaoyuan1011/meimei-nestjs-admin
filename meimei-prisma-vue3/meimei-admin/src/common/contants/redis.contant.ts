@@ -1,11 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-24 21:57:34
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-17 20:11:34
- * @FilePath: /meimei-new/src/common/contants/redis.contant.ts
- * @Description: reids缓存信息的key前缀
- */
 /* 图片key */
 export const CAPTCHA_IMG_KEY = 'captcha:img';
 

@@ -1,13 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-27 22:07:09
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-11 22:59:03
- * @FilePath: /meimei-new/src/modules/monitor/login-infor/dto/req-login-infor.dto.ts
- * @Description:
- *
- */
-
 import { Transform } from 'class-transformer';
 import { IsObject, IsOptional, IsString } from 'class-validator';
 import { PaginationDto } from 'src/common/dto/pagination.dto';

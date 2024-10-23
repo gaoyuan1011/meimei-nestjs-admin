@@ -1,12 +1,3 @@
-<!--
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-03-11 10:32:26
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-11 16:55:23
- * @FilePath: \耗材前端\src\components\DictTag\index.vue
- * @Description: 
- * 
--->
 <template>
   <div>
     <template v-for="(item, index) in options">

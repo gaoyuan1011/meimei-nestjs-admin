@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-17 14:16:02
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-17 14:48:03
- * @FilePath: \meimei-new\src\modules\monitor\server\server.controller.ts
- * @Description:
- *
- */
 import { Controller, Get } from '@nestjs/common';
 import { DataObj } from 'src/common/class/data-obj.class';
 import { ServerService } from './server.service';

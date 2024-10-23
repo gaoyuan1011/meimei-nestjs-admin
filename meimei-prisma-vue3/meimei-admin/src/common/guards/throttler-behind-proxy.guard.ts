@@ -1,13 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-23 09:07:16
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-28 09:09:58
- * @FilePath: \meimei-new\src\common\guards\throttler-behind-proxy.guard.ts
- * @Description: 
- * 
- */
-// throttler-behind-proxy.guard.ts
 import { ThrottlerGuard } from '@nestjs/throttler';
 import { Injectable } from '@nestjs/common';
 /**

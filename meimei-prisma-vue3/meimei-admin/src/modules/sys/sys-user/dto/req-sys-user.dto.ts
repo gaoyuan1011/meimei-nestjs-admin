@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-13 16:22:47
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-15 17:02:32
- * @FilePath: \meimei-new\src\modules\sys\sys-user\dto\req-sys-user.dto.ts
- * @Description:
- *
- */
 import { OmitType } from '@nestjs/mapped-types';
 import { Transform, Type } from 'class-transformer';
 import {

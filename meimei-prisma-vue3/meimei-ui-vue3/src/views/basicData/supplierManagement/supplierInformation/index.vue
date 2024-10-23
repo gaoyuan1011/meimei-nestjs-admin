@@ -1,12 +1,3 @@
-<!--
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2024-02-19 15:22:26
- * @LastEditors: sheng.jiang 87789771@qq.com
- * @LastEditTime: 2024-02-28 15:00:50
- * @FilePath: /耗材前端/src/views/basicData/supplierManagement/supplierInformation/index.vue
- * @Description: 供应商基本信息
- * 
--->
 <template>
     <div class="app-container app-js df fdc">
       <el-form

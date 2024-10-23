@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-23 09:32:25
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-15 14:59:44
- * @FilePath: \meimei-new\src\common\filters\all-exception.filter.ts
- * @Description:
- *
- */
 import {
   ExceptionFilter,
   Catch,

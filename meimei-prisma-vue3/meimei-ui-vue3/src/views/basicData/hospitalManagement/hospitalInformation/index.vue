@@ -1,12 +1,3 @@
-<!--
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2024-02-19 15:23:14
- * @LastEditors: sheng.jiang 87789771@qq.com
- * @LastEditTime: 2024-02-21 14:08:59
- * @FilePath: /耗材前端/src/views/basicData/hospitalManagement/hospitalInformation/index.vue
- * @Description: 医院基本信息
- * 
--->
 <template>
   <div class="app-container app-js df fdc">
     <el-form

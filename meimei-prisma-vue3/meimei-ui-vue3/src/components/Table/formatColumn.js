@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2023-09-17 16:34:32
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-08-22 23:19:20
- * @FilePath: /goods-nest-vue3/src/components/Table/formatColumn.js
- * @Description: 处理表格列数据
- * 
- */
 import { nextTick, toValue } from "vue";
 import { getTableConfig } from '@/api/system/user.js'
 export function formatColumn(tableId, columns, TableRef) {

@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-20 13:39:36
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-06-27 10:42:21
- * @FilePath: \meimei-prisma-vue3\meimei-admin\src\modules\sys\sys-user\sys-user.controller.ts
- * @Description:
- *
- */
 import {
   Body,
   Controller,

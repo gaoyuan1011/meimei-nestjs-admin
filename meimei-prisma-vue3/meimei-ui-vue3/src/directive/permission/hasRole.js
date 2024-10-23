@@ -1,8 +1,3 @@
- /**
- * v-hasRole 角色权限处理
- * Copyright (c) 2019 mei-mei
- */
- 
 import useUserStore from '@/store/modules/user'
 
 export default {

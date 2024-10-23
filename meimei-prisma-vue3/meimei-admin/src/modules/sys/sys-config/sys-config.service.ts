@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-28 08:39:38
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-13 16:15:08
- * @FilePath: \meimei-new\src\modules\sys\sys-config\sys-config.service.ts
- * @Description: 接口日志
- *
- */
 import { Inject, Injectable } from '@nestjs/common';
 import {
   AddSysConfigDto,

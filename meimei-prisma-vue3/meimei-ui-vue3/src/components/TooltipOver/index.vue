@@ -1,12 +1,3 @@
-<!--
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2023-10-02 16:42:48
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2023-10-08 22:28:15
- * @FilePath: /耗材物流前端/src/components/TooltipOver/index.vue
- * @Description: 超出时显示
- * 
--->
 <template>
   <el-tooltip
     effect="dark"

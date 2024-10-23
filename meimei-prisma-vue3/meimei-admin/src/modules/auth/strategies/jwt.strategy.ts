@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-24 08:35:55
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-24 11:35:05
- * @FilePath: \meimei-new\src\modules\auth\strategies\jwt.strategy.ts
- * @Description:
- *
- */
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';

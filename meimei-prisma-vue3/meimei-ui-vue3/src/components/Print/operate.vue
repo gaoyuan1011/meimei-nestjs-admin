@@ -1,12 +1,3 @@
-<!--
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2023-09-12 09:06:46
- * @LastEditors: sheng.jiang 87789771@qq.com
- * @LastEditTime: 2023-09-14 14:21:10
- * @FilePath: \ruoyi-ui-3.0-print\src\components\Print\operate.vue
- * @Description: 顶部操作按钮
- * 
--->
 <template>
   <div>
     <el-form inline>

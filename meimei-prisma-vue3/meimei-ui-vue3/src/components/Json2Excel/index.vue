@@ -1,12 +1,3 @@
-<!--
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-03-30 13:40:22
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-03 15:57:02
- * @FilePath: \耗材前端\src\components\Json2Excel\index.vue
- * @Description: 
- * 
--->
 <template>
   <div class="app-container app-js">
     <el-button @click="exportData">导出</el-button>

@@ -1,12 +1,3 @@
-<!--
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2023-09-11 10:39:20
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-08 14:25:37
- * @FilePath: \耗材前端\src\layout\components\AppMain.vue
- * @Description: 
- * 
--->
 <template>
   <section class="app-main">
     <router-view v-slot="{ Component, route }">

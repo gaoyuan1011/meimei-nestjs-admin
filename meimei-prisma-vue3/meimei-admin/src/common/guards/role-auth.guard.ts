@@ -1,13 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-23 18:59:25
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-04-27 21:41:32
- * @FilePath: /meimei-new/src/common/guards/role-auth.guard.ts
- * @Description: 角色守卫
- *
- */
-
 import { InjectRedis } from '@nestjs-modules/ioredis';
 import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
 import { Reflector } from '@nestjs/core';

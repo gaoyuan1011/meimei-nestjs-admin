@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-05-17 19:47:46
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-17 20:27:35
- * @FilePath: /meimei-new/src/modules/sys/sys-table/sys-table.controller.ts
- * @Description:
- *
- */
 import { Body, Controller, Delete, Get, Post, Query } from '@nestjs/common';
 import { SysTableService } from './sys-table.service';
 import { User, UserEnum } from 'src/common/decorators/user.decorator';

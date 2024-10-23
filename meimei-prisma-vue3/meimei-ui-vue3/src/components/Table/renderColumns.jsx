@@ -1,11 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2023-09-16 14:20:30
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2023-09-16 14:58:00
- * @FilePath: /ruoyi-ui-3.0-print/src/components/Table/renderColumns.jsx
- * @Description: 渲染 Column 列渲染函数的构造函数 * 
- */
 import Renderer from './renderer'
 export default function renderColumns(props, slots, attrs) {
     return function renderFun(column, index) {

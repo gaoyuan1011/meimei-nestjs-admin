@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2023-09-18 21:08:47
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-17 17:23:47
- * @FilePath: \meimei-new-前端\src\store\modules\settings.js
- * @Description: 
- * 
- */
 import defaultSettings from '@/settings'
 import { useDynamicTitle } from '@/utils/dynamicTitle'
 import { getWeb } from '@/api/login.js'

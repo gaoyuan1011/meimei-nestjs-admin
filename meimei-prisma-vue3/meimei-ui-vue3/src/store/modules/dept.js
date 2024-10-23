@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-01-14 10:51:40
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-01-14 16:45:45
- * @FilePath: /耗材前端/src/store/modules/dept.js
- * @Description: 系统内的部门 下拉列表选项
- * 
- */
 import { defineStore } from "pinia";
 import { deptList } from '@/api/system/dept.js'
 

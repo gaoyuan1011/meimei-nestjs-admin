@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-01-06 14:56:02
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-18 23:47:23
- * @FilePath: /meimei-nestjs-admin/meimei-prisma-vue3/meimei-ui-vue3/vite.config.ts
- * @Description:
- *
- */
 import { defineConfig, loadEnv } from "vite";
 import path from "path";
 import createVitePlugins from "./vite/plugins";

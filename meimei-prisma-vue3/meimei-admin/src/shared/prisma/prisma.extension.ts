@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-25 19:09:21
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-11 17:26:45
- * @FilePath: \meimei-new\src\shared\prisma\prisma.extension.ts
- * @Description: 自定义数据库方法
- *
- */
 import { Prisma, PrismaClient } from '@prisma/client';
 
 export const extendedPrismaClient = new PrismaClient().$extends({

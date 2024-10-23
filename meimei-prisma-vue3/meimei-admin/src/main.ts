@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-20 17:42:55
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-19 01:36:57
- * @FilePath: /meimei-admin/src/main.ts
- * @Description: 主入口
- *
- */
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import helmet from 'helmet';

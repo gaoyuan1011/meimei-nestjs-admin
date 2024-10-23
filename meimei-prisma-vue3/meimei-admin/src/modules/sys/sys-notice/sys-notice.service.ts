@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-11 10:32:53
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-11 15:33:13
- * @FilePath: \meimei-new\src\modules\sys\sys-notice\sys-notice.service.ts
- * @Description: 
- * 
- */
 import { Inject, Injectable } from '@nestjs/common';
 import {
   AddSysNoticeDto,

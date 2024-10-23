@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-20 18:34:10
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-06-27 10:40:44
- * @FilePath: \meimei-prisma-vue3\meimei-admin\src\modules\common\upload\upload.module.ts
- * @Description:
- *
- */
 import { UploadController } from './upload.controller';
 import { Module } from '@nestjs/common';
 import { MulterModule } from '@nestjs/platform-express';

@@ -1,13 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-27 18:03:28
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-11 15:56:22
- * @FilePath: \meimei-new\src\common\decorators\log.decorator.ts
- * @Description: 接口日志装饰器
- *
- */
-
 import { SetMetadata } from '@nestjs/common';
 import { LOG_KEY_METADATA } from '../contants/decorator.contant';
 

@@ -1,12 +1,3 @@
-<!--
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2023-09-11 15:04:00
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-01-11 22:01:19
- * @FilePath: /耗材前端/src/components/Print/index.vue
- * @Description: 打印插件
- * 
--->
 <template>
   <div>
     <operate

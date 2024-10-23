@@ -1,12 +1,3 @@
-<!--
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2023-10-02 15:50:59
- * @LastEditors: jiangSheng 87789771@qq.com
- * @LastEditTime: 2024-03-15 10:09:28
- * @FilePath: \耗材前端\src\views\basicData\goodsManagement\goodsClassification\index.vue
- * @Description: 商品分类信息
- * 
--->
 <template>
   <div class="app-container app-js df fdc">
     <el-form

@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-23 16:58:36
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-13 15:54:22
- * @FilePath: \meimei-new\src\modules\login\dto\res-login.dto.ts
- * @Description:
- *
- */
 import { SysMenu, SysUser } from '@prisma/client';
 
 export class ResImageCaptchaDto {

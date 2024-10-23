@@ -1,12 +1,3 @@
-<!--
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-04-02 20:59:31
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-04-06 11:48:43
- * @FilePath: /耗材前端/src/views/deliveryManagement/orderDelivery/index.vue
- * @Description: 
- * 
--->
 <template>
     <div class="app-container app-js df fdc">
         <div>

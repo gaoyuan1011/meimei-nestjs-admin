@@ -1,12 +1,3 @@
-<!--
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-04-03 09:10:03
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-04-07 17:03:23
- * @FilePath: \耗材前端\src\views\deliveryManagement\components\deliveryForm\index.vue
- * @Description: 
- * 
--->
 <template>
   <div class="h-100">
     <hot-table

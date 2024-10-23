@@ -1,12 +1,3 @@
-/*
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2023-06-30 08:34:42
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-18 11:57:42
- * @FilePath: /meimei-new-vue/vite/plugins/index.js
- * @Description: 
- * 
- */
 import vue from '@vitejs/plugin-vue'
 import createAutoImport from './auto-import'
 import createSvgIcon from './svg-icon'

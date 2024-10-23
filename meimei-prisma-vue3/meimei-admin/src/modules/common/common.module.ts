@@ -1,7 +1,3 @@
-/*
-https://docs.nestjs.com/modules
-*/
-
 import { Global, Module } from '@nestjs/common';
 import { ExcelModule } from './excel/excel.module';
 import { UploadModule } from './upload/upload.module';

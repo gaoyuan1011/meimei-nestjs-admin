@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-11 14:49:47
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-11 23:20:22
- * @FilePath: /meimei-new/src/modules/monitor/oper-log/oper-log.controller.ts
- * @Description:
- *
- */
 import {
   Body,
   Controller,

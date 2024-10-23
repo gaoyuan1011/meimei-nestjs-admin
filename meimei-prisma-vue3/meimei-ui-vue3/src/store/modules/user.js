@@ -1,12 +1,3 @@
-/*
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2023-09-18 21:08:47
- * @LastEditors: jiangSheng 87789771@qq.com
- * @LastEditTime: 2024-03-12 15:19:32
- * @FilePath: \耗材前端\src\store\modules\user.js
- * @Description: 
- * 
- */
 import { login, logout, getInfo } from '@/api/login'
 import { getToken, setToken, removeToken } from '@/utils/auth'
 import defAva from '@/assets/images/profile.jpeg'

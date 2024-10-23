@@ -1,12 +1,3 @@
-<!--
- * @Author: jiang.sheng 87789771@qq.com
- * @Date: 2024-05-13 19:17:53
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-18 15:59:09
- * @FilePath: /meimei-new-vue3/src/views/system/user/profile/index.vue
- * @Description: 
- * 
--->
 <template>
   <div class="app-container">
     <el-row :gutter="20">

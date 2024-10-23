@@ -1,12 +1,3 @@
-<!--
- * @Author: sheng.jiang 87789771@qq.com
- * @Date: 2024-01-29 14:11:00
- * @LastEditors: jiangSheng 87789771@qq.com
- * @LastEditTime: 2024-03-14 15:14:51
- * @FilePath: \耗材前端\src\views\basicData\goodsManagement\goodsMessage\goodsMessageDetails\index.vue
- * @Description: 
- * 
--->
 <template>
   <div class="app-container">
     <el-auto-resizer @resize="resizerChange" v-loading="getLoading">

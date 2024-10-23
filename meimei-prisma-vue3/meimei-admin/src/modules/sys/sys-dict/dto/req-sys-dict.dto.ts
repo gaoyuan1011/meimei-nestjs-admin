@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-10 14:34:58
- * @LastEditors: JiangSheng 87789771@qq.com
- * @LastEditTime: 2024-05-11 09:39:57
- * @FilePath: \meimei-new\src\modules\sys\sys-dict\dto\req-sys-dict.dto.ts
- * @Description:
- *
- */
 import { Transform } from 'class-transformer';
 import { IsNumber, IsObject, IsOptional, IsString } from 'class-validator';
 import { DataBaseDto } from 'src/common/dto/data-base.dto';

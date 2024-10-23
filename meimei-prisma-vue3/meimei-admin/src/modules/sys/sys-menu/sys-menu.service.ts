@@ -1,12 +1,3 @@
-/*
- * @Author: JiangSheng 87789771@qq.com
- * @Date: 2024-05-13 13:59:22
- * @LastEditors: jiang.sheng 87789771@qq.com
- * @LastEditTime: 2024-05-17 21:57:51
- * @FilePath: /meimei-new/src/modules/sys/sys-menu/sys-menu.service.ts
- * @Description:
- *
- */
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'nestjs-prisma';
 import {
