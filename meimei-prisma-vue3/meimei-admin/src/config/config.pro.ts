@@ -26,7 +26,7 @@ export default {
    */
   redis: {
     host: 'redis',
-    port: '16379',
+    port: '6379',
     password: '123456',
     db: 0,
   },

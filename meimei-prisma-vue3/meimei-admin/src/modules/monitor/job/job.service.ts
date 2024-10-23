@@ -24,7 +24,7 @@ export class JobService {
     [JobService.name]: JobService,
   };
   constructor(
-    @InjectQueue(JOB_BULL_KEY) private jobQueue: Queue,
+    @InjectQueue(JOB_BULL_KEY) private readonly jobQueue: Queue,
     private readonly moduleRef: ModuleRef,
     private readonly prisma: PrismaService,
     @Inject('CustomPrisma')
@@ -109,7 +109,7 @@ export class JobService {
       });
       const promiseArr = jobList.map((job) => this.stop(job));
       await Promise.all(promiseArr);
-      await await this.prisma.sysJob.deleteMany({
+      await this.prisma.sysJob.deleteMany({
         where: {
           jobId: {
             in: jobIds,

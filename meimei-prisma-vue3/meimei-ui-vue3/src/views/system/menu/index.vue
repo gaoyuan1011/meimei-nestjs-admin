@@ -370,6 +370,18 @@ const columns = ref([
     width: 300
   },
   {
+    dataKey: 'component',
+    key: 'component',
+    title: '组件',
+    width: 200
+  },
+  {
+    dataKey: 'path',
+    key: 'path',
+    title: '路由',
+    width: 100
+  },
+  {
     dataKey: 'icon',
     key: 'icon',
     title: '图标',
@@ -388,7 +400,7 @@ const columns = ref([
     dataKey: 'perms',
     key: 'perms',
     title: '权限标识',
-    width: 300
+    width: 200
   },
   {
     dataKey: 'status',
@@ -405,7 +417,7 @@ const columns = ref([
     key: 'createTime',
     title: '创建时间',
     align: 'center',
-    width: 300,
+    width: 200,
     cellRenderer: ({ cellData }) => <span>{parseTime(cellData)}</span>
   },
   {

@@ -51,6 +51,12 @@
     "vite": "5.0.4",
     "vite-plugin-compression": "0.5.1",
     "vite-plugin-svg-icons": "2.0.1",
-    "vue-tsc": "0.38.4"
+    "eslint": "^8.57.0",
+    "eslint-plugin-vue": "^9.23.0",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "@vue/eslint-config-typescript": "^13.0.0",
+    "@rushstack/eslint-patch": "^1.8.0",
+    "vue-tsc": "^2.0.21",
+    "@tsconfig/node20": "^20.1.4"
   }
 }
