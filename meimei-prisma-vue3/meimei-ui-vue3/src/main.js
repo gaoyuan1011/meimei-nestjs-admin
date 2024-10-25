@@ -5,6 +5,7 @@ import Cookies from 'js-cookie'
 import ElementPlus from 'element-plus'
 import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 
+import '@/assets/styles/tailwind.css' // global css
 import '@/assets/styles/index.scss' // global css
 import '@/assets/styles/variables.module.scss' // global css
 import 'element-plus/theme-chalk/index.css' // global css
