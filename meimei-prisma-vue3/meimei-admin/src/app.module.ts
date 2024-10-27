@@ -5,9 +5,10 @@ import { SysModule } from './modules/sys/sys.module';
 import { LoginModule } from './modules/login/login.module';
 import { MonitorModule } from './modules/monitor/monitor.module';
 import { CommonModule } from './modules/common/common.module';
+import { TranslateModule } from './modules/translate/translate.module';
 
 @Module({
-  imports: [SharedModule, CommonModule, SysModule, LoginModule, MonitorModule],
+  imports: [SharedModule, CommonModule, TranslateModule, SysModule, LoginModule, MonitorModule],
   controllers: [AppController],
 })
 export class AppModule {}
