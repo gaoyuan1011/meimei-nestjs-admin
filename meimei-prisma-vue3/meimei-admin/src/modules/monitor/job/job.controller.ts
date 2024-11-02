@@ -29,7 +29,7 @@ import { CreateMessagePipe } from 'src/common/pipes/createmessage.pipe';
 import { UpdateMessagePipe } from 'src/common/pipes/updatemessage.pipe';
 import { StringToArrPipe } from 'src/common/pipes/stringtoarr.pipe';
 
-@Controller('monitor')
+@Controller('api/monitor')
 export class JobController {
   constructor(
     private readonly jobService: JobService,

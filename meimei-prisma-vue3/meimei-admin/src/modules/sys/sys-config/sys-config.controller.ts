@@ -28,7 +28,7 @@ import { ExportSysConfigDto } from './dto/res-sys-config.dto';
 import { ExcelService } from 'src/modules/common/excel/excel.service';
 import { StringToArrPipe } from 'src/common/pipes/stringtoarr.pipe';
 
-@Controller('system/config')
+@Controller('api/system/config')
 export class SysConfigController {
   constructor(
     private readonly sysConfigService: SysConfigService,

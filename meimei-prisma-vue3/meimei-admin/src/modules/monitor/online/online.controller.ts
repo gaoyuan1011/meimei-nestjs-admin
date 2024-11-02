@@ -4,7 +4,7 @@ import { RequiresPermissions } from 'src/common/decorators/requires-permissions.
 import { OnlineList } from './dto/req-online.dto';
 import { BusinessTypeEnum, Log } from 'src/common/decorators/log.decorator';
 
-@Controller('monitor/online')
+@Controller('api/monitor/online')
 export class OnlineController {
   constructor(private readonly onlineService: OnlineService) {}
 

@@ -23,7 +23,7 @@ import { DataObj } from 'src/common/class/data-obj.class';
 import { UpdateMessagePipe } from 'src/common/pipes/updatemessage.pipe';
 import { StringToArrPipe } from 'src/common/pipes/stringtoarr.pipe';
 
-@Controller('system/notice')
+@Controller('api/system/notice')
 export class SysNoticeController {
   constructor(private readonly sysNoticeService: SysNoticeService) {}
 

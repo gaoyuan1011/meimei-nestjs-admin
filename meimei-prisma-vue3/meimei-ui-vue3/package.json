@@ -42,6 +42,7 @@
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.8.0",
     "@tsconfig/node20": "^20.1.4",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
     "@vitejs/plugin-vue": "4.5.0",
     "@vitejs/plugin-vue-jsx": "^3.0.2",
     "@vue/compiler-sfc": "3.3.9",

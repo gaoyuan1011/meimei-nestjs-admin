@@ -4,8 +4,10 @@ import createSvgIcon from './svg-icon'
 import createCompression from './compression'
 import createSetupExtend from './setup-extend'
 import vueJsx from '@vitejs/plugin-vue-jsx'
+import basicSsl from '@vitejs/plugin-basic-ssl'
 export default function createVitePlugins(viteEnv, isBuild = false) {
   const vitePlugins = [vue()]
+  vitePlugins.push(basicSsl())
   vitePlugins.push(vueJsx())
   vitePlugins.push(createAutoImport())
   vitePlugins.push(createSetupExtend())

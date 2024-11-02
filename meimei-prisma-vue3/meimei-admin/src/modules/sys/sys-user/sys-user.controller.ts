@@ -40,7 +40,7 @@ import { ApiException } from 'src/common/exceptions/api.exception';
 import { User, UserEnum } from 'src/common/decorators/user.decorator';
 import { DataScope } from 'src/common/type/data-scope.type';
 
-@Controller('system/user')
+@Controller('api/system/user')
 export class SysUserController {
   constructor(
     private readonly sysUserService: SysUserService,

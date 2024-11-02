@@ -26,12 +26,11 @@ import { DataObj } from 'src/common/class/data-obj.class';
 import { UpdateMessagePipe } from 'src/common/pipes/updatemessage.pipe';
 import { BusinessTypeEnum, Log } from 'src/common/decorators/log.decorator';
 import { StringToArrPipe } from 'src/common/pipes/stringtoarr.pipe';
-import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { Keep } from 'src/common/decorators/keep.decorator';
 import { ExcelService } from 'src/modules/common/excel/excel.service';
 import { ExportSysDictDto } from './dto/res-sys-dict.dto';
 
-@Controller('system')
+@Controller('api/system')
 export class SysDictController {
   constructor(
     private readonly sysDictService: SysDictService,

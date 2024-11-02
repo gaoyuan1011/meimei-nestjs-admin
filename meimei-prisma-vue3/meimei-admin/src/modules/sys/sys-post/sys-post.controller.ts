@@ -27,7 +27,7 @@ import { Keep } from 'src/common/decorators/keep.decorator';
 import { ExcelService } from 'src/modules/common/excel/excel.service';
 import { ExportSysPostDto } from './dto/res-sys-post.dto';
 
-@Controller('system/post')
+@Controller('api/system/post')
 export class SysPostController {
   constructor(
     private readonly sysPostService: SysPostService,

@@ -5,7 +5,7 @@ import { DataObj } from 'src/common/class/data-obj.class';
 import { CreateMessagePipe } from 'src/common/pipes/createmessage.pipe';
 import { AddSysWebDto } from './dto/req-sys-web.dto';
 
-@Controller('system/web')
+@Controller('api/system/web')
 export class SysWebController {
   constructor(private readonly sysWebService: SysWebService) {}
 

@@ -21,7 +21,7 @@ import {
   UpdateSysMenuDto,
 } from './dto/req-sys-menu.dto';
 
-@Controller('system/menu')
+@Controller('api/system/menu')
 export class SysMenuController {
   constructor(private readonly sysMenuService: SysMenuService) {}
   /* 新增 */

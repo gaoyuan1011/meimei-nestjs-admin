@@ -7,7 +7,7 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { FileInterceptor, FilesInterceptor } from '@nestjs/platform-express';
-@Controller('common')
+@Controller('api/common')
 export class UploadController {
   /* 单文件上传 */
   @Post('upload')

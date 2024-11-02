@@ -23,7 +23,7 @@ import {
 import { User, UserEnum } from 'src/common/decorators/user.decorator';
 import { DataScope } from 'src/common/type/data-scope.type';
 
-@Controller('system/dept')
+@Controller('api/system/dept')
 export class SysDeptController {
   constructor(private readonly sysDeptService: SysDeptService) {}
   /* 新增 */

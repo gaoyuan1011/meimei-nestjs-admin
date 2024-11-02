@@ -16,7 +16,7 @@ import { LoginService } from './login.service';
 import { SysUser } from '@prisma/client';
 import { Request } from 'express';
 import { UserInfo } from 'src/common/type/user-info.type';
-@Controller()
+@Controller('api')
 export class LoginController {
   constructor(private readonly loginService: LoginService) {}
 

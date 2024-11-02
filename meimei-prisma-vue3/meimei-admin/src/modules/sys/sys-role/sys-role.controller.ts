@@ -34,7 +34,7 @@ import { ExportSysRoleDto } from './dto/res-sys-role.dto';
 import { User, UserEnum } from 'src/common/decorators/user.decorator';
 import { DataScope } from 'src/common/type/data-scope.type';
 
-@Controller('system/role')
+@Controller('api/system/role')
 export class SysRoleController {
   constructor(
     private readonly sysRoleService: SysRoleService,

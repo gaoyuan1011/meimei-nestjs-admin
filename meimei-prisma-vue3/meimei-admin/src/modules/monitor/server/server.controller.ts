@@ -2,7 +2,7 @@ import { Controller, Get } from '@nestjs/common';
 import { DataObj } from 'src/common/class/data-obj.class';
 import { ServerService } from './server.service';
 
-@Controller('monitor')
+@Controller('api/monitor')
 export class ServerController {
   constructor(private readonly serverService: ServerService) {}
 

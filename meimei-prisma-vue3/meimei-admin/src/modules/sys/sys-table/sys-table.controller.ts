@@ -5,7 +5,7 @@ import { DataObj } from 'src/common/class/data-obj.class';
 import { CreateMessagePipe } from 'src/common/pipes/createmessage.pipe';
 import { AddSysTableDto, GetTableDto } from './dto/req-sys-table.dto';
 
-@Controller('system/table')
+@Controller('api/system/table')
 export class SysTableController {
   constructor(private readonly sysTableService: SysTableService) {}
 

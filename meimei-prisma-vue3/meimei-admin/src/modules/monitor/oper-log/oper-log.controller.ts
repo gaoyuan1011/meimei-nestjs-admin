@@ -18,7 +18,7 @@ import { Keep } from 'src/common/decorators/keep.decorator';
 import { ExcelService } from 'src/modules/common/excel/excel.service';
 import { ExportOperLogDto } from './dto/res-oper-log.dto';
 
-@Controller('monitor/operlog')
+@Controller('api/monitor/operlog')
 export class OperLogController {
   constructor(
     private readonly operLogService: OperLogService,

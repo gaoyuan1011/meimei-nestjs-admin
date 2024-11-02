@@ -18,7 +18,7 @@ import { Keep } from 'src/common/decorators/keep.decorator';
 import { ExcelService } from 'src/modules/common/excel/excel.service';
 import { ExportLoginInforDto } from './dto/res-login-infor.dto';
 
-@Controller('monitor/logininfor')
+@Controller('api/monitor/logininfor')
 export class LoginInforController {
   constructor(
     private readonly loginInforService: LoginInforService,

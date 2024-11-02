@@ -13,7 +13,9 @@ async function bootstrap() {
   app.set('trust proxy', true);
 
   /** 设置接口统一前缀 */
-  app.setGlobalPrefix('api')
+  // app.setGlobalPrefix('api', {
+  //   exclude: [{ path: '/', method: RequestMethod.GET, version: 'dynamic' }],
+  // })
 
   /* 读取环境变量里是否允许跨域 */
   const cors = configService.get('cors');

@@ -2,7 +2,7 @@ import { Controller, Delete, Get, Param } from '@nestjs/common';
 import { CacheService } from './cache.service';
 import { DataObj } from 'src/common/class/data-obj.class';
 
-@Controller('monitor/cache')
+@Controller('api/monitor/cache')
 export class CacheController {
   constructor(private readonly cacheService: CacheService) {}
 
